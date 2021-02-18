@@ -16,7 +16,7 @@ resources:
   - name: go_buildinfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: {{ .Values.artifactory }}
+      sourceArtifactory: art
 
 
 pipelines:
