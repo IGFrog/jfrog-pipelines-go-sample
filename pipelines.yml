@@ -30,7 +30,7 @@ pipelines:
           resolverRepo: go-virtual
           noRegistry: true
           inputResources:
-            - name: go_buildinfo
+            - name: go_repo
           integrations:
             - name: art
 
