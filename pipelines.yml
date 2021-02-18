@@ -30,9 +30,9 @@ pipelines:
           resolverRepo: go-virtual
           noRegistry: true
           inputResources:
-            - name: go-local
+            - name: go_buildinfo
           integrations:
-            - name: art
+            - name: my_github
 
       # Publish the Go sample app binary to Artifactory. Docs at https://www.jfrog.com/confluence/display/JFROG/GoPublishBinary
       - name: publish_go_binary
