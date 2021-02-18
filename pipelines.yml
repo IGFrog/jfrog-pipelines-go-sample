@@ -30,7 +30,7 @@ pipelines:
           resolverRepo: go-virtual
           noRegistry: true
           inputResources:
-            - name: go_remote
+            - name: IGFrog/jfrog-pipelines-go-sample
           integrations:
             - name: my_github
 
