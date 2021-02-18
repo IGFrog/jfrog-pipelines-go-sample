@@ -32,7 +32,7 @@ pipelines:
           inputResources:
             - name: go_buildinfo
           integrations:
-            - name: my_github
+            - name: art
 
       # Publish the Go sample app binary to Artifactory. Docs at https://www.jfrog.com/confluence/display/JFROG/GoPublishBinary
       - name: publish_go_binary
