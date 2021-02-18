@@ -30,7 +30,7 @@ pipelines:
           resolverRepo: go-virtual
           noRegistry: true
           inputResources:
-            - name: go_repo
+            - name: go_remote
           integrations:
             - name: my_github
 
